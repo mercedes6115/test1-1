@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<input type="button" onclick="test1()" value="테스트1">
+<br>
+<br>
+<input type="button" onclick="test2()" value="테스트2">
+<br>
+<br>
+<input type="button" onclick="test3()" value="테스트3">
+<br>
+<br>
+<input type="button" onclick="test4()" value="테스트4">
+<br>
+<br>
+<input type="button" onclick="test5()" value="테스트5">
+</body>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/test.js"></script>
+<script>
+$(document).ready(function(){
+    function test1(){
+        testService.test1(function(result){console.log(result)});
+    }
+    function test2(){
+        testService.test1(function(result){console.log(result)});
+    }
+    function test3(){
+        testService.test1(function(result){console.log(result)});
+    }
+    function test4(){
+        testService.test1(function(result){console.log(result)});
+    }
+    function test5(){
+        testService.test1(function(result){console.log(result)});
+    }
+
+
+
+})
+</script>
+
+
+</html>
